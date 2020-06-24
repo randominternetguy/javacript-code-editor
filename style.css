@@ -1,0 +1,62 @@
+* {
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+#button-div {
+  display: flex;
+  position: fixed;
+  background-color: black;
+  top: 0;
+  margin: auto;
+}
+
+#editor {
+  display: flex;
+  padding-top: 50px;
+  font-size: 15px;
+}
+
+#line-number {
+  min-width: 20px;
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2px;
+}
+
+#line-number p {
+  color: red;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#main {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: black;
+  color: white;
+  resize: none;
+  width: 100%;
+  min-height: 80vh;
+  line-height: 17px;
+  overflow: hidden;
+}
+
+.button {
+  width: auto;
+  margin: 10px;
+  font-size: 15px;
+  color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+}
